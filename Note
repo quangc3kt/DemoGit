@@ -3,3 +3,8 @@ git add <tên file>: Đưa các thay đổi của file các trong vùng nhớ st
 git commit -m "ghi chú gì đó": đưa các thay đổi từ staging area vào trong local repository và lưu lại 1 snapshot tại thời điểm đó
 git remote: kết nối local repository với remote repository
 git push: đẩy các thay  đổi từ local lên remote
+
+Từ lần git thứ 2 thì chỉ cần các câu lệnh:
+git add .
+git commit -m "..."
+git push origin master
